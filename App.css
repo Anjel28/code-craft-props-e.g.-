@@ -1,0 +1,62 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.light-mode {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+input, textarea {
+  margin: 5px;
+  padding: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
